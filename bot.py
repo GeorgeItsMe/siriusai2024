@@ -34,7 +34,7 @@ def parse_hotel_info(url):
     }
 
 
-url = 'https://travel.yandex.ru/hotels/moscow/otel-mandarin-moskva/'
+url = input()
 hotel_info = parse_hotel_info(url)
 print('Description:', hotel_info['description'])
 print('Services:', hotel_info['services'])
